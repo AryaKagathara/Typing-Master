@@ -1,0 +1,86 @@
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.dock {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.button {
+  font-size: 18px;
+  padding: 10px 14px;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: gray;
+}
+
+.input {
+  cursor: pointer;
+  padding: 5px;
+  font-size: 20px;
+  height: 300px;
+  width: 550px;
+  margin: 20px 0;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow:  8px 8px 38px #ededed, 
+               -8px -8px 38px #ffffff;
+}
+
+.counter,
+.wpm,
+.std {
+  font-size: 48px;
+  color: crimson;
+}
+
+.wpm,
+.std {
+  color: black;
+}
+
+.std {
+  font-size: 24px;
+}
+
+.red {
+  background-color: lightcoral;
+}
+
+.passage {
+  margin: 50px auto;
+  text-align: left;
+  text-justify: auto;
+  width: 550px;
+  padding: 5px;
+  font-size: 20px;
+  color: black;
+}
+
+.hint {
+  font-size: 12px;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0;
+  }
+  .passage,
+  .input {
+    width: 400px;
+  }
+}
