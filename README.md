@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# React Typing Master
+![](https://raw.githubusercontent.com/AryaKagathara/Typing-Master/master/image.PNG)
+
 ## Available Scripts
 
 In the project directory, you can run:
